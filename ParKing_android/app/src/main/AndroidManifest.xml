@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dlwor.parking">
+
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- These permissions are required to use bluetooth -->
+    <!-- 블루투스 기능을 사용하기 위해 필요한 권한입니다. -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-feature android:required="true" android:name="android.hardware.bluetooth_le"/>
+
+    <!-- One of these permissions are required for Android API 23 (marshmallow) or higher.
+        If you already use one of them, you do not need to add the other permission.
+        "ACCESS_COARSE_LOCATION" permission is recommended. -->
+    <!-- 안드로이드 API 23 (마시멜로우) 이상의 버전에서 필요한 권한입니다.
+        ACCESS_COARSE_LOCATION 혹은 ACCESS_FINE_LOCATION 중 1개의 권한만 필요로 합니다.
+        당사에서는 ACCESS_COARSE_LOCATION 권한을 권장합니다. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="주차의왕"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".LoginActivity">
+        </activity>
+
+        <activity android:name=".SignUpActivity">
+        </activity>
+
+        <activity android:name=".UsageActivity">
+        </activity>
+
+        <activity android:name=".RecoRangingActivity">
+        </activity>
+
+        <activity android:name=".ParkingLotActivity">
+        </activity>
+
+
+
+        <service android:name="com.perples.recosdk.RECOBeaconService" />
+    </application>
+
+</manifest>

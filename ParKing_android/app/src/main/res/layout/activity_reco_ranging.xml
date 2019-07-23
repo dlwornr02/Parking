@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/status_tv"
+        android:layout_width="0dp"
+        android:layout_height="289dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_ranging" />
+
+    <ListView
+        android:id="@+id/list_ranging"
+        android:layout_width="0dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ListView>
+
+    <Button
+        android:id="@+id/check_out_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="48dp"
+        android:onClick="onClick_check_out_btn"
+        android:text="Check_out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_ranging" />
+
+    <Button
+        android:id="@+id/check_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick_check_in_btn"
+        android:text="Check_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_ranging" />
+
+    <Button
+        android:id="@+id/show_parking_lot_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="48dp"
+        android:onClick="choice_ParkingLot"
+        android:text="주차장보기"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_ranging" />
+
+</android.support.constraint.ConstraintLayout>

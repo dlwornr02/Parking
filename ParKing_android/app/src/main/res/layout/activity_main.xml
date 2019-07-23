@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:text="이번달 사용내역"
+        app:layout_constraintBottom_toBottomOf="@+id/tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_empty_btn" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:text="빈곳찾기"
+        app:layout_constraintStart_toStartOf="@+id/search_empty_btn"
+        app:layout_constraintTop_toBottomOf="@+id/search_empty_btn" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="주차예약"
+        app:layout_constraintBottom_toBottomOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="@+id/reserv_parking_btn"
+        app:layout_constraintTop_toTopOf="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="4dp"
+        android:text="간편주차"
+        app:layout_constraintEnd_toEndOf="@+id/simple_parking_btn"
+        app:layout_constraintTop_toBottomOf="@+id/simple_parking_btn" />
+
+    <ImageView
+        android:id="@+id/logout_iv"
+        android:layout_width="29dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="82dp"
+        android:clickable="true"
+        android:onClick="logout_Click"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv4"
+        app:srcCompat="@mipmap/logout" />
+
+    <TextView
+        android:id="@+id/info_tv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/simple_parking_btn"
+        android:layout_width="91dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="101dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="100dp"
+        android:onClick="simple_parking_Btn_Click"
+        app:layout_constraintBottom_toTopOf="@+id/search_empty_btn"
+        app:layout_constraintStart_toStartOf="@+id/info_tv"
+        app:layout_constraintTop_toTopOf="@+id/info_tv"
+        app:srcCompat="@drawable/parkingbtn" />
+
+    <ImageButton
+        android:id="@+id/reserv_parking_btn"
+        android:layout_width="91dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="46dp"
+        android:onClick="reserv_parking_btn_Click"
+        app:layout_constraintBottom_toTopOf="@+id/tv2"
+        app:layout_constraintEnd_toEndOf="@+id/info_tv"
+        app:layout_constraintTop_toTopOf="@+id/simple_parking_btn"
+        app:srcCompat="@drawable/reservbtn" />
+
+    <ImageButton
+        android:id="@+id/search_empty_btn"
+        android:layout_width="93dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="142dp"
+        android:layout_marginStart="51dp"
+        android:onClick="search_empty_btn_Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/searchemptybtn" />
+
+    <ImageButton
+        android:id="@+id/details_of_usage_btn"
+        android:layout_width="0dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:onClick="usage_details_btn_Click"
+        app:layout_constraintBottom_toTopOf="@+id/tv4"
+        app:layout_constraintEnd_toEndOf="@+id/tv4"
+        app:layout_constraintStart_toStartOf="@+id/reserv_parking_btn"
+        app:srcCompat="@drawable/usagebtn" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_5"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_6"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_4" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_6"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_7"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_5" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_7"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_8"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_6" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_8"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_9"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_7" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_9"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_10"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_8" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_10"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="263dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_9" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_11"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginTop="65dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_12"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_2"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_11" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_13"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_4"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_12" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_14"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_5"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_13" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_15"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_6"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_14" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_1"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="66dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_2"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_2"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_3"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_1"
+        tools:layout_height="15" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_3"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="4dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_4"
+        app:layout_constraintEnd_toEndOf="@+id/hansei_mainbuilding_2"
+        app:layout_constraintStart_toStartOf="@+id/hansei_mainbuilding_2"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_2" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_4"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginStart="111dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_5"
+        app:layout_constraintEnd_toStartOf="@+id/hansei_mainbuilding_13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_3" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_16"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_6"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_15" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_17"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_7"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_16" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_18"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_8"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_17" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_19"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/hansei_mainbuilding_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_9"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_18" />
+
+    <TextView
+        android:id="@+id/hansei_mainbuilding_20"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="263dp"
+        android:layout_marginEnd="87dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hansei_mainbuilding_10"
+        app:layout_constraintTop_toBottomOf="@+id/hansei_mainbuilding_19" />
+
+</android.support.constraint.ConstraintLayout>
